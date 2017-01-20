@@ -9,7 +9,7 @@
   2. Get shots of DC
   3. Implement Color Scheme
   4. FAQ Section
-   1. Create card components for FAQ
+    1. Create card components for FAQ
   5. Add contact us and sponsorship packet download
  4. Build Registration 
   1. Secure Login
