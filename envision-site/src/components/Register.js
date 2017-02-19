@@ -62,7 +62,7 @@ var Register = React.createClass({
             <section id="loginUI" className="pad-xl">
             <div className="row main">
             <div className="main-login main-center">
-                <h3 className = "blue text-center lead"> Register </h3>
+                <h3 className = "blue2 text-center lead"> Register </h3>
             <form className="form-horizontal"onSubmit={this.handleSubmit} >
 
 

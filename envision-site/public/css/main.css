@@ -1,6 +1,6 @@
 
 html , body {
-    //background-image: url("/img/zwartevilt.png");
+    background-image: url("/img/footer_lodyas.png");
 }
 
 .html {
@@ -12,7 +12,8 @@ html , body {
     font-size: 120px;
     font-family: Helvetica;
     font-weight: Bold;
-    color: #2c3e50;
+    color: #ffffff;
+    opacity: .8;
     width: 120px;
     height: 120px;
     text-align: center;
@@ -53,24 +54,15 @@ p, .lead {
 h1 {
     font-size: 75px;
     line-height: 55px;
-    letter-spacing: -1px;
-    color: #2c3e50;
-    font-weight: 700;
-}
-.h21 {
-    font-size: 40px;
-    line-height: 40px;
-    letter-spacing: -0.5px;
-    color: #FFFFFF;
-    font-weight: 700;
+    color: #ffffff;
+    opacity: .8;
 }
 
 h2 {
     font-size: 40px;
-    line-height: 40px;
-    etter-spacing: -0.5px;
-    color: #2C3E50;
-    font-weight: 700;
+    line-height: 55px;
+    color: #ffffff;
+    opacity: .8;
 }
 
 h3 {
@@ -100,7 +92,22 @@ p {
     color: #929496;
     font-weight: 400;
 }
-
+#pinContainer {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+}
+#slideContainer {
+    width: 400%; /* to contain 4 panels, each with 100% of window width */
+    height: 100%;
+}
+.panel {
+    height: 100%;
+    width: 25%; /* relative to parent -> 25% of 400% = 100% of window width */
+    float: left;
+}
 /*------------------Utilities---------------------*/
 a {
     color: inherit;
@@ -309,12 +316,25 @@ a:hover, a:focus {
     color: #231f20;
 }
 
-.blue {
-    color: #70cbce;
+.blue2 {
+    color: #2C3E50;
 }
 
 .white {
     color: #ffffff;
+}
+
+.feather {
+    background-color: #77C9D4;
+}
+.marine {
+    background-color: #57BC90;
+}
+.forest {
+    background-color: #015249;
+}
+.sleekgrey {
+    background-color: #A5A5AF;
 }
 
 
