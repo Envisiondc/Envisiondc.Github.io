@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import Login from "./components/Login";
 import Register from "./components/Register";
+import SignupSurvey from "./components/Survey";
 import './index.css';
 
 import * as firebase from 'firebase';
@@ -25,6 +26,7 @@ ReactDOM.render(
         <Route path="/" component={App}/>
         <Route path="/login" component={Login}/>
         <Route path="/register" component={Register}/>
+        <Route path="/survey" component={SignupSurvey}/>
 
     </Router>,
   document.getElementById('root')
