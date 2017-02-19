@@ -2,6 +2,7 @@
   "name": "envision-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Envisiondc.github.io/envisiondc/envision-site",
   "devDependencies": {
     "react-scripts": "0.8.5"
   },
