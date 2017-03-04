@@ -37,10 +37,10 @@ var Login = React.createClass({
             var errors = <h6 className="red"> Invalid login. Please check your username and password. </h6>
         console.log(this.state.error);
         return (
-        <section id="loginUI" className="pad-xl">
+        <section id="loginUI" className="pad-xl myHeader">
         <div className="row main">
         <div className="main-login main-center">
-                <h3 className = "blue2 text-center lead"> Log in </h3>
+                <h3 className = "text-center"> Log in </h3>
             <form className="form-horizontal" onSubmit={this.handleSubmit}>
 
 
@@ -65,7 +65,7 @@ var Login = React.createClass({
 
 
             <div className="form-group ">
-            <button type="submit" className="btn btn-primary-inverse btn-lg btn-block login-button">Login</button>
+            <button type="submit" className="btn btn-primary btn-lg btn-block login-button">Login</button>
             </div>
             <div className="login-register"><h6>
             Not a member? <a className = "scroll"> <Link to="/register" className="scroll"> Sign up. </Link> </a>

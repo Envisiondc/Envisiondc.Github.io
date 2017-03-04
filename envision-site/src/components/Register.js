@@ -59,10 +59,10 @@ var Register = React.createClass({
         return (
 
 
-            <section id="loginUI" className="pad-xl">
+            <section id="loginUI" className="pad-xl myHeader">
             <div className="row main">
             <div className="main-login main-center">
-                <h3 className = "blue2 text-center lead"> Register </h3>
+                <h3 className = "text-center"> Register </h3>
             <form className="form-horizontal"onSubmit={this.handleSubmit} >
 
 
@@ -107,7 +107,7 @@ var Register = React.createClass({
             </div>
 
             <div className="form-group ">
-            <button type="submit" className="btn btn-primary-inverse btn-lg btn-block login-button">Register</button>
+            <button type="submit" className="btn btn-primary btn-lg btn-block login-button">Register</button>
             </div>
             <div className="login-register"><h6>
             Already a member? <a className = "scroll"> <Link to="/login" className="scroll"> Login. </Link> </a>

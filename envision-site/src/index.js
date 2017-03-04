@@ -4,6 +4,7 @@ import App from './App';
 import Login from "./components/Login";
 import Register from "./components/Register";
 import SignupSurvey from "./components/Survey";
+import Typeform from "./components/Typeform";
 import './index.css';
 
 import * as firebase from 'firebase';
@@ -27,6 +28,7 @@ ReactDOM.render(
         <Route path="/login" component={Login}/>
         <Route path="/register" component={Register}/>
         <Route path="/survey" component={SignupSurvey}/>
+        <Route path="/test" component={Typeform}/>
 
     </Router>,
   document.getElementById('root')
